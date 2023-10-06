@@ -8,6 +8,7 @@ header {
 
 body {
     text-align: center;
+    background: linear-gradient(#e66465, #9198e5);
 
 }
 
@@ -17,16 +18,16 @@ body {
 }
 
 .box {
-    
+
 }
 
 .boxes { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background: linear-gradient(#e66465, #9198e5);
-    border: dotted black;
     justify-content: center;
+    border: dotted black;
+    border-radius: 8px;
     
 }
 
