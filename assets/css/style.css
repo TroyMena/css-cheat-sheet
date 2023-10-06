@@ -1,27 +1,36 @@
 /* css file */
 
 header {
+    text-align: center;
+    
     
 }
 
 body {
+    text-align: center;
 
 }
 
 .subtitle {
+    text-align: center;
 
 }
 
 .boxes { 
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: linear-gradient(#e66465, #9198e5);
+    
 }
 
-.boxes h2 {
+.boxes h2 { 
+    text-align: center;
 
 }
 
 .boxes p {
-
+    text-align: center;
 }
 
 .boxes pre {
@@ -30,7 +39,7 @@ body {
 
 
 footer {
-
+    text-align: center;
 }
 
 
