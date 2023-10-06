@@ -16,11 +16,17 @@ body {
 
 }
 
+.box {
+    
+}
+
 .boxes { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     background: linear-gradient(#e66465, #9198e5);
+    border: dotted black;
+    justify-content: center;
     
 }
 
