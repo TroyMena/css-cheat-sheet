@@ -18,15 +18,16 @@ body {
 }
 
 .box {
-
+    border: dotted black 2px;
+    width: 30%;
+    margin-bottom: 20px;
 }
 
 .boxes { 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    border: dotted black;
+    justify-content: space-evenly;
     border-radius: 8px;
     
 }
@@ -40,8 +41,9 @@ body {
     text-align: center;
 }
 
-.boxes pre {
-
+.boxes .box pre {
+    align-items:center;
+    justify-content: center;
 }
 
 
